@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#EF8BAD"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="17dp"
+        android:gravity="center"
+        android:text="Nota Transasksi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_TipeMember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Tipe Member"
+        android:textSize="17dp"
+        android:layout_marginBottom="30dp"/>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_NamaPelanggan"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="Nama Pelanggan : "
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/tv_JenisKelamin"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin : "
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/tv_AlamatPelanggan"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat Pelanggan : "
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/tv_NamaBarang"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="Nama Barang : "
+            android:textSize="17dp" />
+        <TextView
+            android:id="@+id/tv_JumlahBarang"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="Jumlah Barang"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/tv_Harga"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="Harga : "
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/tv_TotalHarga"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="Total Harga : "
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/tv_DiscHarga"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="Disc. Harga :"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/tv_DiscMember"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="Disc. Member : "
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/tv_JumlahBayar"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="Jumlah Bayar : "
+            android:textSize="17dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Terimakasih"
+        android:layout_marginTop="17dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="17dp"
+        android:text="Terimakasih sudah berbelanja di toko kami"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
