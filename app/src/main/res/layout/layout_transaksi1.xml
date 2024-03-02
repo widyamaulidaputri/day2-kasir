@@ -9,23 +9,22 @@
     android:orientation="vertical">
 
     <EditText
-        android:id="@+id/etNamaPelanggan"
+        android:id="@+id/etNama"
         android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nama Pelanggan"/>
+        android:hint="Nama"/>
 
     <EditText
-        android:id="@+id/etAlamatPelanggan"
+        android:id="@+id/etAlamat"
         android:inputType="text"
-        android:hint="Alamat Pelanggan"
+        android:hint="Alamat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:ignore="DuplicateIds" />
 
     <RadioGroup
         android:id="@+id/rgJenisKelamin"
-        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -39,7 +38,7 @@
         <RadioButton
             android:id="@+id/rbPria"
             android:text="Pria"
-            android:layout_marginLeft="5dp"
+            android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
@@ -51,7 +50,7 @@
     </RadioGroup>
 
     <LinearLayout
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 

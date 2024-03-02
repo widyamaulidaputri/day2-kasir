@@ -30,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
         RadioGroup rgJenisKelamin, rgTipePelanggan, rgNamaBarang;
         RadioButton pilihjeniskelamis, pilihtipepelanggan, pilihnamabarang;
 
-        namapelanggan = (EditText) findViewById(R.id.etNamaPelanggan);
-        alamatpelanggan = (EditText) findViewById(R.id.etAlamatPelanggan);
+        namapelanggan = (EditText) findViewById(R.id.etNama);
+        alamatpelanggan = (EditText) findViewById(R.id.etAlamat);
         jumlahbarang = (EditText) findViewById(R.id.etJumlahBarang);
 
         String nama = namapelanggan.getText().toString().trim();
